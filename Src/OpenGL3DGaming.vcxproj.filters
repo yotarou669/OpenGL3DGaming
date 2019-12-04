@@ -11,6 +11,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Src</Filter>
+    </ClInclude>
     <ClInclude Include="GameOverScene.h">
       <Filter>Src</Filter>
     </ClInclude>
@@ -21,18 +27,6 @@
       <Filter>Src</Filter>
     </ClInclude>
     <ClInclude Include="TitleScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\pch.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\Scene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\GLFWEW.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\GamePad.h">
       <Filter>Src</Filter>
     </ClInclude>
   </ItemGroup>
@@ -58,11 +52,5 @@
     <ClCompile Include="Main.cpp">
       <Filter>Src</Filter>
     </ClCompile>
-    <ClCompile Include="Src\GLFWEW.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>

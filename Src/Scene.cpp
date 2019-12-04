@@ -1,8 +1,8 @@
 /**
 * @file Scene.cpp
 */
-#include "Src/pch.h"
-#include "Src/Scene.h"
+#include "pch.h"
+#include "Scene.h"
 #include <iostream>
 
 /**
