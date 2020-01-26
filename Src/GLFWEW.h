@@ -28,6 +28,9 @@ namespace GLFWEW
 		int Height() const { return height; }
 		bool IsKeyPressed(int key) const;
 		const GamePad& GetGamePad() const;
+		/*int Width() const { return width; }
+		int Height() const { return height; }*/
+
 
 	private:
 		Window();

@@ -14,13 +14,7 @@
     <ClInclude Include="GameOverScene.h">
       <Filter>Src</Filter>
     </ClInclude>
-    <ClInclude Include="StatusScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
     <ClInclude Include="MainGameScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="TitleScene.h">
       <Filter>Src</Filter>
     </ClInclude>
     <ClInclude Include="Src\pch.h">
@@ -33,6 +27,30 @@
       <Filter>Src</Filter>
     </ClInclude>
     <ClInclude Include="Src\GamePad.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\BufferObject.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Texture.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Shader.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Geometry.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sprite.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\StatusScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Font.h">
       <Filter>Src</Filter>
     </ClInclude>
   </ItemGroup>
@@ -61,8 +79,40 @@
     <ClCompile Include="Src\GLFWEW.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="Src\BufferObject.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Texture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Shader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sprite.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Font.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Src\Sptite.vert">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="Src\Sprite.frag">
+      <Filter>Src</Filter>
+    </None>
+    <None Include="Res\font.fnt">
+      <Filter>Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\font_0.tga">
+      <Filter>Res</Filter>
+    </Image>
+    <Image Include="Res\TitleBg.tga">
+      <Filter>Res</Filter>
+    </Image>
   </ItemGroup>
 </Project>
