@@ -11,12 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameOverScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
-    <ClInclude Include="MainGameScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
     <ClInclude Include="Src\pch.h">
       <Filter>Src</Filter>
     </ClInclude>
@@ -44,33 +38,27 @@
     <ClInclude Include="Src\Sprite.h">
       <Filter>Src</Filter>
     </ClInclude>
-    <ClInclude Include="Src\TitleScene.h">
-      <Filter>Src</Filter>
-    </ClInclude>
     <ClInclude Include="Src\StatusScene.h">
       <Filter>Src</Filter>
     </ClInclude>
     <ClInclude Include="Src\Font.h">
       <Filter>Src</Filter>
     </ClInclude>
+    <ClInclude Include="Src\TitleScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameOverScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\MainGameScene.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Mesh.h">
+      <Filter>Src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="TitleScene.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="MainGameScene.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="StatusScene.cpp">
-      <Filter>Src</Filter>
-    </ClCompile>
-    <ClCompile Include="GameOverScene.cpp">
       <Filter>Src</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
@@ -94,16 +82,34 @@
     <ClCompile Include="Src\Font.cpp">
       <Filter>Src</Filter>
     </ClCompile>
+    <ClCompile Include="Src\TitleScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\StatusScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameOverScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MainGameScene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Mesh.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Src\Sptite.vert">
-      <Filter>Src</Filter>
-    </None>
-    <None Include="Src\Sprite.frag">
-      <Filter>Src</Filter>
-    </None>
     <None Include="Res\font.fnt">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\Sprite.vert">
+      <Filter>Res</Filter>
+    </None>
+    <None Include="Res\Sprite.frag">
       <Filter>Res</Filter>
     </None>
   </ItemGroup>

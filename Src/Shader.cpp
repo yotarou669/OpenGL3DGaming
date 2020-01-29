@@ -182,6 +182,7 @@ namespace Shader {
 		id = programId;
 		if (id == 0) {
 			locMatMVP = -1;
+			locMatModle = -1;
 			locPointLightPos = -1;
 			locPointLightCol = -1;
 			locDirLightDir = -1;
@@ -194,6 +195,7 @@ namespace Shader {
 		}
 
 		locMatMVP = glGetUniformLocation(id, "matMVP");
+		locMatModle = glGetUniformLocation(id, "matModle");
 		locPointLightPos = glGetUniformLocation(id, "pointLight.position");
 		locPointLightCol = glGetUniformLocation(id, "pointLight.color");
 		locDirLightDir = glGetUniformLocation(id, "directionalLight.direction");
@@ -293,6 +295,17 @@ namespace Shader {
 		}
 	}
 
+	/*
+	描画に使われるモデル行列を設定する
+	@param m 設定するモデル行列
+	*/
+	void Program::SetModelMatrix(const glm::mat4& m)
+	{
+		if (locMatModle >= 0)
+		{
+			glUniformMatrix4fv(locMatModle, 1, GL_FALSE, &m[0][0]);
+		}
+	}
 	
 	/**
 	* プログラムオブジェクトを作成する.

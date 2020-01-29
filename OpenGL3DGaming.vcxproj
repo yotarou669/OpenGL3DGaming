@@ -155,13 +155,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="GameOverScene.h" />
-    <ClInclude Include="MainGameScene.h" />
     <ClInclude Include="Src\BufferObject.h" />
     <ClInclude Include="Src\Font.h" />
+    <ClInclude Include="Src\GameOverScene.h" />
     <ClInclude Include="Src\GamePad.h" />
     <ClInclude Include="Src\Geometry.h" />
     <ClInclude Include="Src\GLFWEW.h" />
+    <ClInclude Include="Src\MainGameScene.h" />
+    <ClInclude Include="Src\Mesh.h" />
     <ClInclude Include="Src\pch.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClInclude>
@@ -173,8 +174,6 @@
     <ClInclude Include="Src\TitleScene.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameOverScene.cpp" />
-    <ClCompile Include="MainGameScene.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
@@ -182,25 +181,24 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Src\BufferObject.cpp" />
     <ClCompile Include="Src\Font.cpp" />
+    <ClCompile Include="Src\GameOverScene.cpp" />
     <ClCompile Include="Src\GLFWEW.cpp" />
+    <ClCompile Include="Src\MainGameScene.cpp" />
+    <ClCompile Include="Src\Mesh.cpp" />
+    <ClCompile Include="Src\Scene.cpp" />
     <ClCompile Include="Src\Shader.cpp" />
     <ClCompile Include="Src\Sprite.cpp" />
+    <ClCompile Include="Src\StatusScene.cpp" />
     <ClCompile Include="Src\Texture.cpp" />
-    <ClCompile Include="StatusScene.cpp" />
-    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="Src\TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Res\font.fnt" />
-    <None Include="Src\Sprite.frag">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
-    <None Include="Src\Sptite.vert">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </None>
+    <None Include="Res\Sprite.frag" />
+    <None Include="Res\Sprite.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Res\font_0.tga" />
